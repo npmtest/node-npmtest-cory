@@ -1,5 +1,5 @@
-<svg height="6894" width="720" xmlns="http://www.w3.org/2000/svg">
-<rect height="6894" fill="#555" width="720"></rect>
+<svg height="6910" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="6910" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
 <tspan x="10" y="26">55 megabytes installed</tspan>
 <tspan x="10" y="42"></tspan>
@@ -30,8 +30,8 @@
 <tspan x="10" y="442">  │ ├── broccoli-slow-trees@1.1.0 </tspan>
 <tspan x="10" y="458">  │ ├─┬ commander@2.9.0 </tspan>
 <tspan x="10" y="474">  │ │ └── graceful-readlink@1.0.1 </tspan>
-<tspan x="10" y="490">  │ ├─┬ connect@3.6.0 </tspan>
-<tspan x="10" y="506">  │ │ ├─┬ finalhandler@1.0.0 </tspan>
+<tspan x="10" y="490">  │ ├─┬ connect@3.6.1 </tspan>
+<tspan x="10" y="506">  │ │ ├─┬ finalhandler@1.0.1 </tspan>
 <tspan x="10" y="522">  │ │ │ ├─┬ on-finished@2.3.0 </tspan>
 <tspan x="10" y="538">  │ │ │ │ └── ee-first@1.1.1 </tspan>
 <tspan x="10" y="554">  │ │ │ ├── statuses@1.3.1 </tspan>
@@ -53,7 +53,7 @@
 <tspan x="10" y="810">  │ │   └── fs.realpath@1.0.0 </tspan>
 <tspan x="10" y="826">  │ └── rsvp@3.5.0 </tspan>
 <tspan x="10" y="842">  ├─┬ broccoli-sane-watcher@1.1.5 </tspan>
-<tspan x="10" y="858">  │ ├─┬ debug@2.6.1 </tspan>
+<tspan x="10" y="858">  │ ├─┬ debug@2.6.3 </tspan>
 <tspan x="10" y="874">  │ │ └── ms@0.7.2 </tspan>
 <tspan x="10" y="890">  │ └─┬ sane@1.6.0 </tspan>
 <tspan x="10" y="906">  │   ├─┬ exec-sh@0.2.0 </tspan>
@@ -181,7 +181,7 @@
 <tspan x="10" y="2858">  │ │ ├── extglob@0.3.2 </tspan>
 <tspan x="10" y="2874">  │ │ ├── filename-regex@2.0.0 </tspan>
 <tspan x="10" y="2890">  │ │ ├── is-extglob@1.0.0 </tspan>
-<tspan x="10" y="2906">  │ │ ├─┬ kind-of@3.1.0 </tspan>
+<tspan x="10" y="2906">  │ │ ├─┬ kind-of@3.2.0 </tspan>
 <tspan x="10" y="2922">  │ │ │ └── is-buffer@1.1.5 </tspan>
 <tspan x="10" y="2938">  │ │ ├─┬ normalize-path@2.1.1 </tspan>
 <tspan x="10" y="2954">  │ │ │ └── remove-trailing-separator@1.0.1 </tspan>
@@ -297,7 +297,7 @@
 <tspan x="10" y="4714">  │   │   │ ├── pify@2.3.0 </tspan>
 <tspan x="10" y="4730">  │   │   │ └─┬ strip-bom@2.0.0 </tspan>
 <tspan x="10" y="4746">  │   │   │   └── is-utf8@0.2.1 </tspan>
-<tspan x="10" y="4762">  │   │   ├─┬ normalize-package-data@2.3.6 </tspan>
+<tspan x="10" y="4762">  │   │   ├─┬ normalize-package-data@2.3.8 </tspan>
 <tspan x="10" y="4778">  │   │   │ ├── hosted-git-info@2.4.2 </tspan>
 <tspan x="10" y="4794">  │   │   │ ├─┬ is-builtin-module@1.0.0 </tspan>
 <tspan x="10" y="4810">  │   │   │ │ └── builtin-modules@1.1.1 </tspan>
@@ -394,7 +394,7 @@
 <tspan x="10" y="6266">  │ │ ├── os-tmpdir@1.0.2 </tspan>
 <tspan x="10" y="6282">  │ │ ├── osenv@0.1.4 </tspan>
 <tspan x="10" y="6298">  │ │ ├── uuid@2.0.3 </tspan>
-<tspan x="10" y="6314">  │ │ └─┬ write-file-atomic@1.3.1 </tspan>
+<tspan x="10" y="6314">  │ │ └─┬ write-file-atomic@1.3.3 </tspan>
 <tspan x="10" y="6330">  │ │   ├── imurmurhash@0.1.4 </tspan>
 <tspan x="10" y="6346">  │ │   └── slide@1.1.6 </tspan>
 <tspan x="10" y="6362">  │ ├── is-npm@1.0.0 </tspan>
@@ -417,18 +417,19 @@
 <tspan x="10" y="6634">  │ │   │ ├── unzip-response@1.0.2 </tspan>
 <tspan x="10" y="6650">  │ │   │ └─┬ url-parse-lax@1.0.0 </tspan>
 <tspan x="10" y="6666">  │ │   │   └── prepend-http@1.0.4 </tspan>
-<tspan x="10" y="6682">  │ │   ├─┬ registry-auth-token@3.1.2 </tspan>
-<tspan x="10" y="6698">  │ │   │ └─┬ rc@1.2.1 </tspan>
-<tspan x="10" y="6714">  │ │   │   ├── deep-extend@0.4.1 </tspan>
-<tspan x="10" y="6730">  │ │   │   ├── ini@1.3.4 </tspan>
-<tspan x="10" y="6746">  │ │   │   └── strip-json-comments@2.0.1 </tspan>
-<tspan x="10" y="6762">  │ │   └── registry-url@3.1.0 </tspan>
-<tspan x="10" y="6778">  │ ├── lazy-req@1.1.0 </tspan>
-<tspan x="10" y="6794">  │ ├─┬ semver-diff@2.1.0 </tspan>
-<tspan x="10" y="6810">  │ │ └── semver@5.3.0 </tspan>
-<tspan x="10" y="6826">  │ └─┬ xdg-basedir@2.0.0 </tspan>
-<tspan x="10" y="6842">  │   └── os-homedir@1.0.2 </tspan>
-<tspan x="10" y="6858">  └─┬ walk@2.3.9 </tspan>
-<tspan x="10" y="6874">    └── foreachasync@3.0.0</tspan>
+<tspan x="10" y="6682">  │ │   ├─┬ registry-auth-token@3.3.0 </tspan>
+<tspan x="10" y="6698">  │ │   │ ├─┬ rc@1.2.1 </tspan>
+<tspan x="10" y="6714">  │ │   │ │ ├── deep-extend@0.4.1 </tspan>
+<tspan x="10" y="6730">  │ │   │ │ ├── ini@1.3.4 </tspan>
+<tspan x="10" y="6746">  │ │   │ │ └── strip-json-comments@2.0.1 </tspan>
+<tspan x="10" y="6762">  │ │   │ └── safe-buffer@5.0.1 </tspan>
+<tspan x="10" y="6778">  │ │   └── registry-url@3.1.0 </tspan>
+<tspan x="10" y="6794">  │ ├── lazy-req@1.1.0 </tspan>
+<tspan x="10" y="6810">  │ ├─┬ semver-diff@2.1.0 </tspan>
+<tspan x="10" y="6826">  │ │ └── semver@5.3.0 </tspan>
+<tspan x="10" y="6842">  │ └─┬ xdg-basedir@2.0.0 </tspan>
+<tspan x="10" y="6858">  │   └── os-homedir@1.0.2 </tspan>
+<tspan x="10" y="6874">  └─┬ walk@2.3.9 </tspan>
+<tspan x="10" y="6890">    └── foreachasync@3.0.0</tspan>
 </text>
 </svg>
